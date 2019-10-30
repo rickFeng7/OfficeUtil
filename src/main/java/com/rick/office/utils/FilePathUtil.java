@@ -15,7 +15,7 @@ public class FilePathUtil {
     private static ArrayList<String> dirAllStrArr = new ArrayList<String>();
 
     public static void main(String[] args) throws Exception {
-        File dirFile = new File("D:\\TestData\\officeUtil\\source");
+        File dirFile = new File("D:\\Develop\\TestData\\officeUtil\\source");
         System.out.println("无子文件夹路径:" + dir(dirFile));
         dirAll(dirFile);
         System.out.println("有子文件夹路径:" + dirAllStrArr);

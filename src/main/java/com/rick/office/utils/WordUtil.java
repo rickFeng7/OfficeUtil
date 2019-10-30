@@ -23,7 +23,7 @@ import java.util.List;
 public class WordUtil {
     public static void main(String[] args) {
         try {
-            File dirFile = new File("D:\\TestData\\officeUtil\\source");
+            File dirFile = new File("D:\\Develop\\TestData\\officeUtil\\source");
             ArrayList<String> dir = FilePathUtil.dir(dirFile);
             ArrayList<ExcelVO> excels = new ArrayList<ExcelVO>();
             for (String filePath : dir) {

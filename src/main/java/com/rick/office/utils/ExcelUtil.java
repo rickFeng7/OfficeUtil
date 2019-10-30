@@ -57,7 +57,7 @@ public class ExcelUtil {
             stuSheet.setColumnWidth(i, stuSheet.getColumnWidth(i) * 15 / 10);
         }
         //获取配置文件中保存对应excel文件的路径，本地也可以直接写成F：excel/stuInfoExcel路径
-        String folderPath = "D:\\TestData\\officeUtil\\destination";
+        String folderPath = "D:\\Develop\\TestData\\officeUtil\\destination";
 
         //创建上传文件目录
         File folder = new File(folderPath);
